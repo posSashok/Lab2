@@ -1,0 +1,133 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Proekt
+build_property.RootNamespace = Proekt
+build_property.ProjectDir = C:\Users\Пользователь\Documents\3 курс\5 семестр\ОснПостЗащБД Дидковская\Proekt\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Пользователь\Documents\3 курс\5 семестр\ОснПостЗащБД Дидковская\Proekt
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Пользователь/Documents/3 курс/5 семестр/ОснПостЗащБД Дидковская/Proekt/Views/Filmi/AddFilmForm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmlsbWlcQWRkRmlsbUZvcm0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Пользователь/Documents/3 курс/5 семестр/ОснПостЗащБД Дидковская/Proekt/Views/Filmi/AddKlientForm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmlsbWlcQWRkS2xpZW50Rm9ybS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Пользователь/Documents/3 курс/5 семестр/ОснПостЗащБД Дидковская/Proekt/Views/Filmi/AddSeanseForm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmlsbWlcQWRkU2VhbnNlRm9ybS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Пользователь/Documents/3 курс/5 семестр/ОснПостЗащБД Дидковская/Proekt/Views/Filmi/AddTicket.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmlsbWlcQWRkVGlja2V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Пользователь/Documents/3 курс/5 семестр/ОснПостЗащБД Дидковская/Proekt/Views/Filmi/AddTicketForm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmlsbWlcQWRkVGlja2V0Rm9ybS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Пользователь/Documents/3 курс/5 семестр/ОснПостЗащБД Дидковская/Proekt/Views/Filmi/AdminStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmlsbWlcQWRtaW5TdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Пользователь/Documents/3 курс/5 семестр/ОснПостЗащБД Дидковская/Proekt/Views/Filmi/change.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmlsbWlcY2hhbmdlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Пользователь/Documents/3 курс/5 семестр/ОснПостЗащБД Дидковская/Proekt/Views/Filmi/change1.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmlsbWlcY2hhbmdlMS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Пользователь/Documents/3 курс/5 семестр/ОснПостЗащБД Дидковская/Proekt/Views/Filmi/changeklients.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmlsbWlcY2hhbmdla2xpZW50cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Пользователь/Documents/3 курс/5 семестр/ОснПостЗащБД Дидковская/Proekt/Views/Filmi/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmlsbWlcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Пользователь/Documents/3 курс/5 семестр/ОснПостЗащБД Дидковская/Proekt/Views/Filmi/Filmi.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmlsbWlcRmlsbWkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Пользователь/Documents/3 курс/5 семестр/ОснПостЗащБД Дидковская/Proekt/Views/Filmi/Index1.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmlsbWlcSW5kZXgxLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Пользователь/Documents/3 курс/5 семестр/ОснПостЗащБД Дидковская/Proekt/Views/Filmi/Klients.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmlsbWlcS2xpZW50cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Пользователь/Documents/3 курс/5 семестр/ОснПостЗащБД Дидковская/Proekt/Views/Filmi/OK.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmlsbWlcT0suY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Пользователь/Documents/3 курс/5 семестр/ОснПостЗащБД Дидковская/Proekt/Views/Filmi/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmlsbWlcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Пользователь/Documents/3 курс/5 семестр/ОснПостЗащБД Дидковская/Proekt/Views/Filmi/PrivacyAd.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmlsbWlcUHJpdmFjeUFkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Пользователь/Documents/3 курс/5 семестр/ОснПостЗащБД Дидковская/Proekt/Views/Filmi/reg.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmlsbWlccmVnLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Пользователь/Documents/3 курс/5 семестр/ОснПостЗащБД Дидковская/Proekt/Views/Filmi/Seanses.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmlsbWlcU2VhbnNlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Пользователь/Documents/3 курс/5 семестр/ОснПостЗащБД Дидковская/Proekt/Views/Filmi/SeanseUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmlsbWlcU2VhbnNlVXNlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Пользователь/Documents/3 курс/5 семестр/ОснПостЗащБД Дидковская/Proekt/Views/Filmi/TicketFormUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmlsbWlcVGlja2V0Rm9ybVVzZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Пользователь/Documents/3 курс/5 семестр/ОснПостЗащБД Дидковская/Proekt/Views/Filmi/Tickets.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmlsbWlcVGlja2V0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Пользователь/Documents/3 курс/5 семестр/ОснПостЗащБД Дидковская/Proekt/Views/Filmi/UserStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmlsbWlcVXNlclN0YXJ0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Пользователь/Documents/3 курс/5 семестр/ОснПостЗащБД Дидковская/Proekt/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Пользователь/Documents/3 курс/5 семестр/ОснПостЗащБД Дидковская/Proekt/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Пользователь/Documents/3 курс/5 семестр/ОснПостЗащБД Дидковская/Proekt/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Пользователь/Documents/3 курс/5 семестр/ОснПостЗащБД Дидковская/Proekt/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Пользователь/Documents/3 курс/5 семестр/ОснПостЗащБД Дидковская/Proekt/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Пользователь/Documents/3 курс/5 семестр/ОснПостЗащБД Дидковская/Proekt/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Пользователь/Documents/3 курс/5 семестр/ОснПостЗащБД Дидковская/Proekt/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-u5haevlkm9

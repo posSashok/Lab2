@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Личный кабинет</title>
+    <link rel="stylesheet">
+</head>
+<body>
+    <style>
+        body {
+            background: thistle;
+            color: white; /* Цвет текста */
+        }
+        .knopka {
+            background: -moz-linear-gradient(#D0ECF4, #EE66B3, #D0ECF4);
+            background: -webkit-gradient(linear, 0 0, 0 100%, from(#D0ECF4), to(#D0ECF4), color-stop(0.5, #EE66B3));
+            /*filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00BBD6', endColorstr='#EBFFFF');*/
+            padding: 3px 7px;
+            color: #333;
+            -moz-border-radius: 5px;
+            -webkit-border-radius: 5px;
+            border-radius: 5px;
+            border: 1px solid #666;
+            width: 110px;
+            margin-left: 550px;
+            margin-top: 20px;
+        }
+    </style>
+<div class="text-center">
+    <h1 class="display-4">АВТОРИЗАЦИЯ ПРОЙДЕНА УСПЕШНО</h1>
+    <div>
+            <div class="knopka">
+                <a class="nav-link text-dark" asp-controller="Filmi" asp-action="Index1" align="right"><b>Фильмы</b></a>
+            </div>
+            <div class="knopka">
+                <a class="nav-link text-dark" asp-controller="Filmi" asp-action="Tickets" align="right"><b>Билеты</b></a>
+            </div>
+            <div class="knopka">
+                <a class="nav-link text-dark" asp-controller="Filmi" asp-action="Seanses" align="right"><b>Cеансы</b></a>
+            </div>
+            <div class="knopka">
+                <a class="nav-link text-dark" asp-controller="Filmi" asp-action="Klients" align="right"><b>Клиенты</b></a>
+            </div>
+        </div>
+</div>
+</body>
+</html>

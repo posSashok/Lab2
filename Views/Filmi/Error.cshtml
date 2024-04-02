@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Ошибка</title>
+    <link rel="stylesheet">
+</head>
+<style>
+        body {
+            background: red; 
+            color: whitesmoke; /* Цвет текста */
+        }
+    .knopka {
+        background: -moz-linear-gradient(#D0ECF4, white, #D0ECF4);
+        background: -webkit-gradient(linear, 0 0, 0 100%, from(#D0ECF4), to(#D0ECF4), color-stop(0.5, white));
+        /*filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00BBD6', endColorstr='#EBFFFF');*/
+        padding: 3px 7px;
+        color: white;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+        border-radius: 5px;
+        border: 1px solid #666;
+        width: 220px;
+        margin-left: 550px;
+        margin-top: 20px;
+    }
+    </style>
+<body>
+<div class="text-center">
+        <h1 class="display-4">
+            <br /><br /><br />
+            НЕПРАВИЛЬНОЕ<br />
+            ИМЯ ПОЛЬЗОВАТЕЛЯ ИЛИ ПАРОЛЬ<br />
+    </h1>
+
+        <div class="knopka">
+            <a class="nav-link text-dark" asp-controller="Filmi" asp-action="Privacy" align="right"><b>Попробовать снова</b></a>
+        </div>
+</div>
+</body>
+</html>

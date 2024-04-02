@@ -1,0 +1,85 @@
+﻿@model List<Film>
+<html>
+<head>
+    <title>Список фильмов</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+<div class="image-container" id="imageContainer">
+    <img src="https://media2.giphy.com/media/AJT51G6K1ShmSchAzO/giphy.gif?cid=6c09b952ikhpec0hbc02wbc4afhpnrdbxnbam2kdsbqjqhxk&ep=v1_stickers_related&rid=giphy.gif&ct=s" class="square-image1">
+    <img src="https://media2.giphy.com/media/Fb5y0mEzSeYOQWajYY/giphy.gif?cid=6c09b952mvul0obmfosyanzu72bx00ii4iojbsi1t6qp8kc3&ep=v1_stickers_related&rid=giphy.gif&ct=s" class="square-image1">
+    <img src="https://otkritkis.com/wp-content/uploads/2022/07/hu3e5.gif" class="square-image1">
+    <img src="https://i.pinimg.com/originals/8a/c0/5f/8ac05f82e890b1faf289b5e4ddaf0e68.gif" class="square-image1">
+    <img src="https://cdn.humoraf.ru/wp-content/uploads/2018/10/gifki-dlya-donata-humoraf.ru-4.gif" class="square-image1">
+</div>
+<body>
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <div class="text-center">
+                    <h1 class="display-4 mb-4">Список фильмов</h1>
+                </div>
+               
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>Название</th>
+                            <th>Продолжительность</th>
+                            <th>Жанр</th>
+                            <th>Страна</th>
+                            <th>Рейтинг</th>
+                            <th>Возрастные ограничения</th>
+
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var film in Model)
+                        {
+
+                            <tr>
+                                <td>@film.FilmName</td>
+                                <td>@film.Long</td>.
+                                <td>@film.Janr</td>
+                                <td>@film.Country</td>
+                                <td>@film.Rating</td>
+                                <td>@film.Old</td>
+
+                                
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+   
+
+</body>
+
+
+<style>
+    body {
+        background: pink;
+        color: #fff; /* Цвет текста */
+    }
+
+    .image-container {
+        display: flex;
+        justify-content: space-between;
+        /*align-items: center;*/
+        margin-left: -70px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .square-image1 {
+        width: 200px;
+        height: 150px;
+        margin: 50px;
+    }
+
+    
+
+</style>
+
+</html>

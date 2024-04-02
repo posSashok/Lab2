@@ -1,0 +1,30 @@
+﻿<html>
+<head>
+    <title>Добавление сеанса</title>
+    <link rel="stylesheet">
+</head>
+<body>
+    <style>
+        body {
+            background: deeppink;
+            color: #fff; /* Цвет текста */
+        }
+    </style>
+    <div class="text-center">
+        <form method="post">
+           
+            <label>Номер фильма:</label><br />
+            <input type="number" name="FilmId" /><br /><br />
+            <label>Начало:</label><br />
+            <input type="datetime" name="Nachalo" /><br /><br />
+            
+            <label>Количество свободных мест:</label><br />
+            <input type="number" name="OstMest" /><br /><br />
+            <label>Примечание:</label><br />
+            <input type="text" name="Ps" /><br /><br />
+        
+            <input type="submit" value="Добавить" asp-action="AddSeanses" onclick="return confirm('Вы уверены, что хотите добавить сеанс?')" /><br /><br /><br /><br /><br /><br />
+        </form>
+    </div>
+</body>
+</html>

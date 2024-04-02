@@ -1,0 +1,34 @@
+﻿<html>
+<head>
+    <title>Добавление</title>
+    <link rel="stylesheet">
+</head>
+<body>
+    <style>
+        body {
+            background: deeppink;
+            color: #fff; /* Цвет текста */
+        }
+    </style>
+    <div class="text-center">
+        <form method="post">
+
+            <label>Номер cеанса:</label><br />
+            <input type="number" name="SeansId" /><br /><br />
+            <label>Номер клиента:</label><br />
+            <input type="datetime" name="KlientId" /><br /><br />
+
+            <label>Номер зала:</label><br />
+            <input type="number" name="ZalId" /><br /><br />
+            <label>Цена:</label><br />
+            <input type="number" name="Cost" /><br /><br />
+            <label>Скидка:</label><br />
+            <input type="number" name="Sale" /><br /><br />
+            <label>Финальная стоимость:</label><br />
+            <input type="number" name="Finaly" /><br /><br />
+
+            <input type="submit" value="Добавить" asp-action="AddTicket" /><br /><br /><br /><br /><br /><br />
+        </form>
+    </div>
+</body>
+</html>

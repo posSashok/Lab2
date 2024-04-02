@@ -1,0 +1,25 @@
+﻿@model Proekt.Models.Seanse
+<div class="text-center">
+    <h1 class="display-4">Изменение данных о сеансе</h1>
+</div>
+<div class="text-center">
+    <style>
+        body {
+            background: deeppink;
+            color: #fff; /* Цвет текста */
+        }
+    </style>
+    <form asp-action="change" asp-controller="Filmi" asp-route-id="@Model.SeansId">
+        <input type="hidden" asp-for="@Model.SeansId" />
+        <label>Номер фильма:</label>
+        <input type="text" asp-for="@Model.FilmId" /><br /><br />
+        <label>Начало:</label>
+        <input type="text" asp-for="@Model.Nachalo" /><br /><br />
+        <label>Осталось мест:</label>
+        <input type="text" asp-for="@Model.OstMest" /><br /><br />
+        <label>Примечание:</label>
+        <input type="text" asp-for="@Model.Ps" /><br /><br />
+   
+        <input type="submit" value="Сохранить изменения" onclick="return confirm('Вы уверены, что хотите сохранить изменения?')" /><br /><br /><br /><br /><br /><br />
+    </form>
+</div>

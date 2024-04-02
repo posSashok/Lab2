@@ -1,0 +1,29 @@
+﻿<html>
+<head>
+    <title>Регистрация</title>
+    <link rel="stylesheet">
+</head>
+<body>
+    <style>
+        body {
+            background: deeppink;
+            color: #fff; /* Цвет текста */
+        }
+    </style>
+    <div class="text-center">
+        <form method="post">
+            <label>Фамилия:</label><br />
+            <input type="text" name="Familia" /><br /><br />
+            <label>Имя:</label><br />
+            <input type="text" name="Name" /><br /><br />
+            <label>Отчество:</label><br />
+            <input type="text" name="Otchestvo" /><br /><br />
+            <label>Дата рождения:</label><br />
+            <input type="text" name="Bday" /><br /><br />
+            <label>Контактный номер:</label><br />
+            <input type="number" name="Kontact" /><br /><br />
+            <input type="submit" value="Добавить" asp-action="AddKlient1" /><br /><br /><br /><br /><br /><br />
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,29 @@
+﻿<html>
+<head>
+    <title>Бронирование билета</title>
+    <link rel="stylesheet">
+</head>
+<body>
+    <style>
+        body {
+            background: deeppink;
+            color: #fff; /* Цвет текста */
+        }
+    </style>
+    <div class="text-center">
+        <form method="post">
+            <label>Номер сеанса:</label><br />
+            <input type="number" name="SeansId" /><br /><br />
+            <label>Номер клиента:</label><br />
+            <input type="number" name="KlientId" /><br /><br />
+            <label>Номер зала:</label><br />
+            <input type="number" name="ZalId" /><br /><br />
+            <label>Оплата по факту:</label><br />
+            <input type="hidden" name="Cost" value="0"  /><br /><br />
+            <input type="hidden" name="Sale" value="0" /><br /><br />
+            <input type="hidden" name="Finaly" value="0" /><br /><br />
+            <input type="submit" value="Добавить" asp-action="AddTicketsUser" /><br /><br /><br /><br /><br /><br />
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,30 @@
+﻿@model Proekt.Models.Klient
+<div class="text-center">
+    <h1 class="display-4">Изменение</h1>
+</div>
+<div class="text-center">
+    <style>
+        body {
+            background: deeppink;
+            color: #fff; /* Цвет текста */
+        }
+    </style>
+    <form asp-action="change" asp-controller="Filmi" asp-route-id="@Model.KlientId">
+        <input type="hidden" asp-for="@Model.KlientId" />
+        <label>Фамилия:</label>
+        <input type="text" asp-for="@Model.Familia" /><br /><br />
+        <label>Имя:</label>
+        <input type="text" asp-for="@Model.Name" /><br /><br />
+        <label>Отчество:</label>
+        <input type="text" asp-for="@Model.Otchestvo" /><br /><br />
+        <label>Дата рождения:</label>
+        <input type="text" asp-for="@Model.Bday" /><br /><br />
+        <label>Контактный номер:</label>
+        <input type="text" asp-for="@Model.Kontact" /><br /><br />
+     
+
+
+
+        <input type="submit" value="Сохранить изменения" /><br /><br /><br /><br /><br /><br />
+    </form>
+</div>

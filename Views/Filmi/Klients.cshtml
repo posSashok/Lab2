@@ -1,0 +1,64 @@
+﻿@model List<Klient>
+<html>
+<head>
+    <title>Список клиентов</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+            <div class="col-lg-7">
+                <div class="text-center">
+                    <h1 class="display-4 mb-4">Список клиентов</h1>
+                </div>
+
+                <div class="text-center">
+                    <a class="nav-link text-dark" asp-controller="Filmi" asp-action="AddKlientForm" align="right"><b>Добавить</b></a>
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th>Фамилия</th>
+                                <th>Имя</th>
+                                <th>Отчество</th>
+                                <th>День рождения</th>
+                                <th>Контактный номер телефона</th>
+                             
+                                <th></th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var klients in Model)
+                            {
+
+                                <tr>
+                                    <td>@klients.Familia</td>
+                                    <td>@klients.Name</td>.
+                                    <td>@klients.Otchestvo</td>
+                                    <td>@klients.Bday</td>
+                                    <td>@klients.Kontact</td>
+
+                                    <td><a class="nav-link text-dark" asp-controller="Filmi" asp-action="changeklients" asp-route-id="@klients.KlientId">Изменить</a></td>
+                                    <td><a class="nav-link text-dark" asp-controller="Filmi" asp-action="Deleteklients" asp-route-id="@klients.KlientId">Удалить</a></td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <style>
+        body {
+            
+           
+            background: pink;
+            color: #fff; /* Цвет текста */
+        }
+    </style>
+
+</body>
+
+</html>

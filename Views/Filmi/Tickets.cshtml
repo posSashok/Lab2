@@ -1,0 +1,62 @@
+﻿@model List<Ticket>
+
+<html>
+<head>
+    <title>Список билетов</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <div class="text-center">
+                    <h1 class="display-4 mb-4">Список билетов</h1>
+                </div>
+                <a class="nav-link text-dark" asp-controller="Filmi" asp-action="AddTicketForm" align="right"><b>Добавить</b></a>
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>Номер сеанса</th>
+                            <th>Номер клиента</th>
+                            <th>Номер зала</th>
+                            <th>Стоимость</th>
+                            <th>Скидка</th>
+                            <th>Итог</th>
+                            <th>Изменить</th>
+                            <th>Удалить</th>
+                           
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var tickets in Model)
+                        {
+
+                            <tr>
+                                <td>@tickets.SeansId</td>
+                                <td>@tickets.KlientId</td>.
+                                <td>@tickets.ZalId</td>
+                                <td>@tickets.Cost</td>
+                                <td>@tickets.Sale</td>
+                                <td>@tickets.Finaly</td>
+
+                                <td><a class="nav-link text-dark" asp-controller="Filmi" asp-action="change2" asp-route-id="@tickets.TicketId">Изменить</a></td>
+                                <td><a class="nav-link text-dark" asp-controller="Filmi" asp-action="Delete1" asp-route-id="@tickets.TicketId">Удалить</a></td>
+
+                              </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <style>
+        body {
+            background: pink;
+            color: #fff; /* Цвет текста */
+        }
+    </style>
+
+</body>
+
+</html>

@@ -1,0 +1,28 @@
+﻿@model Proekt.Models.Film
+<div class="text-center">
+    <h1 class="display-4">Изменение</h1>
+</div>
+<div class="text-center">
+    <style>
+        body {
+            background: deeppink;
+            color: #fff; /* Цвет текста */
+        }
+    </style>
+    <form asp-action="change" asp-controller="Filmi" asp-route-id="@Model.FilmId">
+        <input type="hidden" asp-for="@Model.FilmId" />
+        <label>Название:</label>
+        <input type="text" asp-for="@Model.FilmName" /><br /><br />
+        <label>Продолжительность:</label>
+        <input type="text" asp-for="@Model.Long" /><br /><br />
+        <label>Жанр:</label>
+        <input type="text" asp-for="@Model.Janr" /><br /><br />
+        <label>Страна:</label>
+        <input type="text" asp-for="@Model.Country" /><br /><br />
+        <label>Рейтинг:</label>
+        <input type="text" asp-for="@Model.Rating" /><br /><br />
+        <label>Возрастные ограничения:</label>
+        <input type="text" asp-for="@Model.Old" /><br /><br />
+        <input type="submit" value="Сохранить изменения" onclick="return confirm('Вы уверены, что хотите сохранить изменения?')" /><br /><br /><br /><br /><br /><br />
+    </form>
+</div>

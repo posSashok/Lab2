@@ -1,0 +1,51 @@
+﻿@model List<Seanse>
+
+<html>
+<head>
+    <title>Расписание сеансов</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+            <div class="col-lg-5">
+                <div class="text-center">
+                    <h1 class="display-4 mb-4">Расписание сеансов</h1>
+                </div>
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>Номер фильма</th>
+                            <th>Начало</th>
+                            <th>Осталось мест</th>
+                            <th>Примечание</th>
+                          
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var seanses in Model)
+                        {
+
+                            <tr>
+                                <td>@seanses.FilmId</td>
+                                <td>@seanses.Nachalo</td>
+                                <td>@seanses.OstMest</td>
+                                <td>@seanses.Ps</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <style>
+        body {
+           
+            background: pink;
+                    color: #fff; /* Цвет текста */ 
+        }
+    </style>
+</body>
+
+</html>
