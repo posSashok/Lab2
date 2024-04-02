@@ -342,7 +342,6 @@ namespace Proekt.Controllers
                 await _filmiContext.SaveChangesAsync();
             }
             return RedirectToAction("Klients");
-            return RedirectToAction("Klients");
         }
 
 
