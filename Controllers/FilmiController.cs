@@ -146,7 +146,7 @@ namespace Proekt.Controllers
             return View(tickets);
         }
 
-       
+
 
         [HttpPost]
         public IActionResult AddTickets(int TicketId, int SeansId, int KlientId, int ZalId, decimal Cost, decimal Sale, decimal Finaly)
@@ -230,8 +230,8 @@ namespace Proekt.Controllers
             Seanse seanses = new Seanse { SeansId = SeansId, FilmId = FilmId, Nachalo = Nachalo, OstMest = OstMest, Ps = Ps };
 
             _filmiContext.Seanses.Add(seanses);
-                _filmiContext.SaveChanges();
-                return RedirectToAction("Seanses");
+            _filmiContext.SaveChanges();
+            return RedirectToAction("Seanses");
         }
 
         public async Task<IActionResult> Delete11(int? id)
@@ -289,11 +289,11 @@ namespace Proekt.Controllers
         public IActionResult AddKlient(int KlientId, string Familia, string Name, string? Otchestvo, string Bday, string Kontact)
         {
 
-            Klient klients = new Klient { KlientId= KlientId, Familia= Familia, Name= Name, Otchestvo= Otchestvo, Bday= Bday, Kontact= Kontact };
-                _filmiContext.Klients.Add(klients);
-                _filmiContext.SaveChanges();
-                return RedirectToAction("Klients");
-           
+            Klient klients = new Klient { KlientId = KlientId, Familia = Familia, Name = Name, Otchestvo = Otchestvo, Bday = Bday, Kontact = Kontact };
+            _filmiContext.Klients.Add(klients);
+            _filmiContext.SaveChanges();
+            return RedirectToAction("Klients");
+
         }
 
         public IActionResult AddKlient1(int KlientId, string Familia, string Name, string? Otchestvo, string Bday, string Kontact)
@@ -340,7 +340,7 @@ namespace Proekt.Controllers
             if (klients != null)
             {
                 _filmiContext.Klients.Update(klients);
-                await _filmiContext.SaveChangesAsync(); 
+                await _filmiContext.SaveChangesAsync();
             }
             return RedirectToAction("Klients");
             return RedirectToAction("Klients");
@@ -363,13 +363,13 @@ namespace Proekt.Controllers
 
                 if (klients != null)
                 {
-                   
-                        return RedirectToAction("UserStart");
-                    
+
+                    return RedirectToAction("UserStart");
+
                 }
                 else return View("Error");
             }
-            else return View("Error"); 
+            else return View("Error");
         }
 
 
@@ -379,7 +379,7 @@ namespace Proekt.Controllers
         {
             return View();
         }
-       
+
         [HttpPost]
         public IActionResult LoginAd(string login1, int password1)
         {
@@ -390,7 +390,7 @@ namespace Proekt.Controllers
                 if (personal != null)
                 {
                     return RedirectToAction("AdminStart");
-              
+
                 }
                 else return View("Error");
             }
@@ -417,8 +417,8 @@ namespace Proekt.Controllers
             }
             else return View("Error");
         }
-
+    }
     }
 
-}
+
 
