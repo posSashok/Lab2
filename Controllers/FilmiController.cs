@@ -104,7 +104,6 @@ namespace Proekt.Controllers
             if (id != null)
             {
                 Film? films = await _filmiContext.Films.FirstOrDefaultAsync(p => p.FilmId == id);
-                if (id != null)
                 {
                     _filmiContext.Films.Remove(films);
                     await _filmiContext.SaveChangesAsync();
