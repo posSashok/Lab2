@@ -406,12 +406,7 @@ namespace Proekt.Controllers
 
                 }
                 else return View("Error");
-                if (personal != null)
-                {
-                    return RedirectToAction("AdminStart");
-
-                }
-                else return View("Error");
+               
             }
             else return View("Error");
         }
